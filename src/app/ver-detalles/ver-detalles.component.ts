@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
-import { GetSingleCharacterServiceService } from '../get-single-character-service.service';
 import { CharactersService } from '../service/characters.service';
 
 @Component({
