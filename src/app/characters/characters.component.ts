@@ -44,13 +44,13 @@ export class CharactersComponent implements OnInit {
       this.charactersService.deleteAll()
       .subscribe(
         response => (
-          console.log(response)
+          console.log(response),
+          this.ngOnInit()
         ),
         error => {
           console.log(error)
         }
       );
-      this.ngOnInit();
     }
   }
 }
